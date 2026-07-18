@@ -3,10 +3,7 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 40px 20px;
-  background-image: url('nebula-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #000;
   color: #f0f0f0;
 }
 
