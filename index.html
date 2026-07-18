@@ -30,6 +30,33 @@
     </ul>
   </section>
 
+  <section>
+    <h2>Resume</h2>
+
+    <form id="resume-form">
+      <p>Enter your info to unlock the download:</p>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="company">Company</label>
+      <input type="text" id="company" name="company" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <button type="submit">Unlock Resume</button>
+      <p id="resume-error" class="error" hidden>Something went wrong — please try again.</p>
+    </form>
+
+    <p id="resume-download" hidden>
+      <a href="resume.pdf" download>Download my resume (PDF)</a>
+    </p>
+  </section>
+
   <footer>
     <p>&copy; 2026 Austin</p>
     <div class="social-links">
@@ -46,5 +73,6 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
