@@ -3,25 +3,34 @@ body {
   max-width: 700px;
   margin: 0 auto;
   padding: 40px 20px;
-  background-color: #eaf2fb;
-  color: #222;
+  background-image: url('nebula-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #f0f0f0;
+}
+
+header, section, footer {
+  background-color: rgba(0, 0, 0, 0.55);
+  border-radius: 10px;
+  padding: 20px;
 }
 
 header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 h1 {
-  color: #2b6cb0;
+  color: #8ecbff;
 }
 
 section {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 footer {
   text-align: center;
-  color: #888;
+  color: #ccc;
   font-size: 0.9em;
 }
