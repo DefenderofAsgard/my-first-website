@@ -55,14 +55,21 @@ footer {
   color: #8ecbff;
 }
 
+#resume-form {
+  display: flex;
+  flex-direction: column;
+}
+
 #resume-form label {
   display: block;
+  width: 100%;
   margin-top: 12px;
   margin-bottom: 4px;
   font-size: 0.9em;
 }
 
 #resume-form input {
+  display: block;
   width: 100%;
   box-sizing: border-box;
   padding: 8px;
