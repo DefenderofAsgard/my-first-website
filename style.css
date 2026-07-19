@@ -7,6 +7,26 @@ body {
   color: #f0f0f0;
 }
 
+.caution-banner {
+  background: repeating-linear-gradient(45deg, #f5c518, #f5c518 20px, #111 20px, #111 40px);
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.caution-banner span {
+  background: #111;
+  color: #f5c518;
+  padding: 6px 14px;
+  border-radius: 4px;
+  display: inline-block;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+}
+
 header, section, footer {
   background-color: rgba(0, 0, 0, 0.55);
   border-radius: 10px;
@@ -159,4 +179,35 @@ footer {
 .error {
   color: #ff8080;
   margin-top: 10px;
+}
+
+details summary {
+  cursor: pointer;
+  color: #8ecbff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+details summary:hover {
+  color: #b3ddff;
+}
+
+.pricing-details {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
+
+.pricing-details h3 {
+  color: #8ecbff;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+.pricing-details ul {
+  margin-bottom: 16px;
+}
+
+.pricing-details li {
+  margin-bottom: 4px;
 }
