@@ -2,38 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>About Me</title>
+  <title>Austin Simpson — Web Developer</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
     <h1>Hi, I'm Austin!</h1>
-    <p>Welcome to my little corner of the internet.</p>
+    <p>I build websites and small web apps for independent businesses.</p>
   </header>
 
   <section>
     <h2>About Me</h2>
     <p>
-      I'm an aspiring software engineer, just now learning the ropes.
+      I'm a self-taught developer who learns by shipping real, live projects — not tutorials. Poker, sportbiking, and investing keep me sharp outside of code.
     </p>
   </section>
 
   <section>
-    <h2>Things I Like</h2>
+    <h2>My Work</h2>
+    <div class="portfolio-item">
+      <h3>Game Arcade</h3>
+      <p>A browser game hub with three playable games, including real-time leaderboards backed by a live database and a puzzle game built from a live NASA image API.</p>
+      <a href="https://defenderofasgard.github.io/game-arcade/" target="_blank" rel="noopener noreferrer">View live site →</a>
+    </div>
+    <div class="portfolio-item">
+      <h3>This Site</h3>
+      <p>Gated content and lead-capture forms with validation and email delivery — the same pattern that turns website visitors into client inquiries.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>What I Can Build</h2>
     <ul>
-      <li>Poker</li>
-      <li>Sportbiking</li>
-      <li>Investments</li>
-      <li>Education</li>
-      <li>And more!</li>
+      <li>Simple business websites — landing pages, portfolios, service pages</li>
+      <li>Contact and lead-capture forms that email leads straight to you</li>
+      <li>Small interactive tools and web apps</li>
     </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Work With Me</h2>
+    <p>Have a project in mind? Tell me about it.</p>
+
+    <form id="contact-form">
+      <input type="hidden" name="formType" value="contact">
+      <label for="c-name">Name</label>
+      <input type="text" id="c-name" name="name" required>
+
+      <label for="c-email">Email</label>
+      <input type="email" id="c-email" name="email" required>
+
+      <label for="c-message">Tell me about your project</label>
+      <textarea id="c-message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send</button>
+      <p id="contact-error" class="error" hidden>Something went wrong — please try again.</p>
+      <p id="contact-success" hidden>Thanks! I'll get back to you soon.</p>
+    </form>
   </section>
 
   <section>
     <h2>Resume</h2>
 
     <form id="resume-form">
+      <input type="hidden" name="formType" value="resume">
       <p>Enter your info to unlock the download:</p>
 
       <label for="name">Name</label>
