@@ -92,8 +92,8 @@ footer {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #555;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #222;
+  background-color: #3a3a3a;
+  color: #f0f0f0;
 }
 
 #resume-form button {
@@ -146,8 +146,8 @@ footer {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #555;
-  background-color: rgba(255, 255, 255, 0.9);
-  color: #222;
+  background-color: #3a3a3a;
+  color: #f0f0f0;
   font-family: inherit;
 }
 
