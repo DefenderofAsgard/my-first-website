@@ -3,6 +3,10 @@
 ## Logo
 `logo.svg` — a bold white capital "A" set in Courier New (monospace, code-themed), centered inside six concentric neon rainbow rings (violet `#bc13fe` / blue `#1f51ff` / green `#39ff14` / yellow `#ffff33` / orange `#ff5f1f` / red `#ff073a`, outer to inner; widths 4/2/1/0.5/0.25/0.125, each half the last; radii chosen so the visible black gap between each ring's edges is a constant 2px, compensating for the varying stroke widths) on a black circle. Used as the site favicon and in the header. Scales cleanly since it's SVG — no separate sizes needed.
 
+### Logo Variants
+- `logo.svg` — current logo (circle), used as the live favicon/header logo.
+- `logo-triangle-blank.svg` — alternate triangle version, same neon ring treatment, rings only, no letter added yet. Saved for future use.
+
 ## Color Palette
 
 | Name | Hex | Use |
