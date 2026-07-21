@@ -5,6 +5,18 @@ body {
   padding: 40px 20px;
   background-color: #000;
   color: #f0f0f0;
+  position: relative;
+  z-index: 0;
+}
+
+#matrix-rain {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .caution-banner {
