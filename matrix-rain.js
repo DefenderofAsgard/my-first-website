@@ -1,4 +1,8 @@
 (function () {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+
   const canvas = document.getElementById('matrix-rain');
   const ctx = canvas.getContext('2d');
 

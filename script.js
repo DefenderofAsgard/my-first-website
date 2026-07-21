@@ -44,6 +44,17 @@ resumeForm.addEventListener("submit", async (event) => {
   }
 });
 
+const expandAllBtn = document.getElementById("expand-all-btn");
+const pricingDetails = document.querySelectorAll("#pricing details");
+
+expandAllBtn.addEventListener("click", () => {
+  const shouldExpand = expandAllBtn.textContent === "Expand All";
+  pricingDetails.forEach((details) => {
+    details.open = shouldExpand;
+  });
+  expandAllBtn.textContent = shouldExpand ? "Collapse All" : "Expand All";
+});
+
 const contactForm = document.getElementById("contact-form");
 const contactError = document.getElementById("contact-error");
 const contactSuccess = document.getElementById("contact-success");

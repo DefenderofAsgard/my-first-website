@@ -24,7 +24,7 @@
 | Error Red | `#ff8080` | Form error messages |
 
 ## Typography
-- Font: Arial / system sans-serif (no custom font loaded — keeps the site fast)
+- Font: Courier New / monospace (matches the code/terminal theme sitewide)
 - Headings: bold, primary neon green (`#39ff14`)
 - Body: regular weight, light gray (`#f0f0f0`) on black
 
