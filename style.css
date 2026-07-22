@@ -9,6 +9,14 @@ body {
   z-index: 0;
 }
 
+#pricing {
+  display: none;
+}
+
+.is-local #pricing {
+  display: block;
+}
+
 #matrix-rain {
   position: fixed;
   top: 0;
